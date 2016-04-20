@@ -8,10 +8,10 @@ namespace SweepStakesLee
 	{
 	interface ICustomString
 		{
-		string ToString ();
+		 string ToString ();
 
 
-		void Insert (string stringToInsert);
+		void Insert (int startIndex , string stringToInsert);
 
 
 

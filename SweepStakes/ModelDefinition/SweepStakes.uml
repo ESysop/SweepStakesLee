@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="a5bfb96c-f5b1-4efe-b599-4f1326b14614"
+  name="SweepStakes" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="95c243ca-524e-44a5-bd9d-e407e97e4991"
+        name="Program"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="606a859e-5fa9-497d-93b4-c0b1d652916a"
+            isDerived="false"
+            sourceEndRoleName="Program"
+            targetEndRoleName="List"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e184191b-99a2-4dfc-92fa-8614b757f93d"
+              LastKnownName="List"
+              LastKnownLocation="SweepStakes.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="15b7fd7f-757f-4e10-b1c3-9f16ea084bde"
+                  name="Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="da57a27c-5702-4556-ae38-cc39c506f6bf"
+                  name="List"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="510a5122-b304-4c15-a14d-f6bc010b708e"
+        name="ICustomString"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="9417a8be-0fc6-49ab-be02-3841f4b2b991"
+            isDerived="false"
+            sourceEndRoleName="ICustomString"
+            targetEndRoleName="SystemLinkeListString"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="72c0e751-ded5-4b88-95d3-0eda97e15bcc"
+              LastKnownName="SystemLinkeListString"
+              LastKnownLocation="SweepStakes.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c074994d-8951-461a-8e55-fa7b903f4364"
+                  name="ICustomString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="08473c7a-2197-4e84-8c6a-ddc6b4597266"
+                  name="SystemLinkeListString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="297cfa68-b42f-4c4f-b0e0-70e288bb2618"
+            isDerived="false"
+            sourceEndRoleName="ICustomString"
+            targetEndRoleName="SystemArrayString"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="24dca0a3-569e-4e10-a676-da84c6dee54c"
+              LastKnownName="SystemArrayString"
+              LastKnownLocation="SweepStakes.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7d0f3ec7-e983-436b-823b-ea715e8f7d32"
+                  name="ICustomString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5ac530a5-2176-4e7d-b7af-cc875d6049dd"
+                  name="SystemArrayString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bd9bc369-af76-49df-899a-8fb17ca90334"
+            isDerived="false"
+            sourceEndRoleName="ICustomString"
+            targetEndRoleName="SystemString"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fcd36517-0abf-435c-a272-b766ee164d9d"
+              LastKnownName="SystemString"
+              LastKnownLocation="SweepStakes.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="01280b3c-be54-4eb1-aa89-5ec93a7aaf90"
+                  name="ICustomString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="12298323-8fbb-42a1-aeff-d44ab87bc404"
+                  name="SystemString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8ec7e625-fe0a-4d25-b100-fd13c8dc7651"
+            isDerived="false"
+            sourceEndRoleName="ICustomString"
+            targetEndRoleName="CustomLinkedListsString"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="623fd0b9-3ce2-46ae-89f8-ee2ae8aaaa39"
+              LastKnownName="CustomLinkedListsString"
+              LastKnownLocation="SweepStakes.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="370e82ba-2f25-48e1-a7f9-c6c3e8409fda"
+                  name="ICustomString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2aebdfc-bf5d-4858-8c2d-b68cd5fdcc30"
+                  name="CustomLinkedListsString"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperations>
+          <operation
+            Id="00e180c6-91d6-485b-8a24-2f45f665655d"
+            name="StringToString"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="07a22914-0905-42ea-9b2d-f97399175ea5"
+            name="Insert"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="724c7768-0c43-4443-8bac-9c875897662a"
+            name="Remove"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="1f9c3b51-ece4-4f34-b89b-3b9efc02749c"
+            name="Length"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="ae63035b-d794-4789-91d5-d5ebd6f3e726"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="edc2f3bf-b1a1-4d56-939c-9ba5652e24b6"
+        name="ISweepStakesManager"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="6f3ab167-9482-4b49-a81c-5319e7c15840"
+            name="InsertSweepSatkes"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="dc45f375-9b05-45a3-8b63-dc692022a6e5"
+            name="SweepSatkesGetNextSweepStakesWinner"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="735080b4-7553-44f3-abd6-c1fce8c41bf5"
+        name="Interface3"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fcd36517-0abf-435c-a272-b766ee164d9d"
+        name="SystemString"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="e7357897-19ce-41f1-8f39-d99a5c7c08bf"
+            name="System.string"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="24dca0a3-569e-4e10-a676-da84c6dee54c"
+        name="SystemArrayString"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="2d97aa59-4d61-441a-b166-28532d48d160"
+            name="NewArrayofChars"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="72c0e751-ded5-4b88-95d3-0eda97e15bcc"
+        name="SystemLinkeListString"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="623fd0b9-3ce2-46ae-89f8-ee2ae8aaaa39"
+        name="CustomLinkedListsString"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e184191b-99a2-4dfc-92fa-8614b757f93d"
+        name="List"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
