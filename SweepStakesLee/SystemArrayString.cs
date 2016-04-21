@@ -30,12 +30,14 @@ namespace SweepStakesLee
 
 		public void Insert (int startIndex, string stringToInsert)
 			{
-			throw new NotImplementedException();
+			
+			char[] insertedCharsArray = stringToInsert.ToCharArray();
+			
 			}
 
 		public int Length ()
 			{
-			throw new NotImplementedException();
+			return manipulatedCharArray.Length;
 			}
 
 		public void Remove (int startIndex, int numCharsToRemove)
