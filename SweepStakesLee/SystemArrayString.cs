@@ -8,7 +8,27 @@ namespace SweepStakesLee
 	{
 	public class SystemArrayString : ICustomString
 		{
-		public void Insert (string stringToInsert)
+
+		char[] manipulatedCharArray;
+
+		public SystemArrayString (string manipulatedString)
+			{
+			manipulatedCharArray = manipulatedString.ToCharArray();
+			}
+		public override string ToString ()
+			{
+			string finalString = null;
+			foreach (char character in manipulatedCharArray)
+				{
+				finalString += character;
+				
+				}
+			return finalString;
+			}
+
+
+
+		public void Insert (int startIndex, string stringToInsert)
 			{
 			throw new NotImplementedException();
 			}

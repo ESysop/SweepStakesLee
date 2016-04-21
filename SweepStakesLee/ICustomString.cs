@@ -9,19 +9,12 @@ namespace SweepStakesLee
 	interface ICustomString
 		{
 		 string ToString ();
-
-
+		
 		void Insert (int startIndex , string stringToInsert);
-
-
-
+		
 		void Remove (int startIndex, int numCharsToRemove);
-
-
-
+		
 		int Length ();
-
-
-
+			
 		}
 	}

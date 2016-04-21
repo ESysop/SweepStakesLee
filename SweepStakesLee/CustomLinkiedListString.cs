@@ -8,7 +8,11 @@ namespace SweepStakesLee
 	{
 	public class CustomLinkiedListString : ICustomString
 		{
-		public void Insert (string stringToInsert)
+		public void ToString ()
+			{
+			throw new NotImplementedException();
+			}
+		public void Insert (int startIndex, string stringToInsert)
 			{
 			throw new NotImplementedException();
 			}
